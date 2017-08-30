@@ -2,12 +2,12 @@ def fizzbuzz(num)
 
   if(num % 3 == 0)
     print "Fizz"
-    x = "Fizz"
+    return "Fizz"
   end
 
   if(num % 5 == 0)
     print "Buzz"
-    x = "Buzz"
+    return "Buzz"
   end
 
 end
